@@ -1,0 +1,11 @@
+.item img {
+  margin: 0;
+  display: block;
+  position: absolute;
+}
+
+.carousel-inner {
+  height: 500px;
+  overflow: hidden;
+  /*margin-top: -80px;*/
+}
