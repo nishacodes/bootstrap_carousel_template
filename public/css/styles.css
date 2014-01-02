@@ -5,7 +5,20 @@
 }
 
 .carousel-inner {
-  height: 500px;
+  height: 600px;
   overflow: hidden;
+  border-color: #252525;
   /*margin-top: -80px;*/
+}
+
+
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  margin-top: 20px;
+  margin-bottom: -90px;
+
 }
