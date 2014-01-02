@@ -1,16 +1,20 @@
 .item img {
   margin: 0;
-  display: block;
-  position: absolute;
+  width: 100%;
+  /*clip: rect(400px, 290px, 190px, 100px);*/
+  overflow: hidden;
+  /*display: block;*/
+  /*position: absolute;*/
+}
+
+.main-image {
+  height: 600px;
 }
 
 .carousel-inner {
-  height: 600px;
-  overflow: hidden;
-  border-color: #252525;
-  /*margin-top: -80px;*/
+  /*height: 600px;*/
+  /*overflow: hidden;*/
 }
-
 
 .navbar-wrapper {
   position: absolute;
@@ -20,5 +24,16 @@
   z-index: 10;
   margin-top: 20px;
   margin-bottom: -90px;
+}
 
+.navbar-inner {
+  border: none;
+}
+
+section {
+  padding-bottom: 50px;
+}
+
+footer {
+  
 }
